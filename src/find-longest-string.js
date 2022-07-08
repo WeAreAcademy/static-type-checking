@@ -8,13 +8,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * @returns the longest string
  */
 function findLongestString(stringArr) {
-    let longestString = stringArr[0];
-    for (const str of stringArr) {
-        if (str.length > longestString.length) {
-            longestString = str;
-        }
+  let longestString = stringArr[0];
+  for (const str of stringArr) {
+    if (str.length > longestString.length) {
+      longestString = str;
     }
-    return longestString;
+  }
+  return longestString;
 }
 // export function so it can be used in test file
 exports.default = findLongestString;

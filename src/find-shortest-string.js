@@ -8,12 +8,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * @returns the shortest string
  */
 function findShortestString(stringArr) {
-    let shortestString = stringArr[0];
-    for (const str of stringArr) {
-        if (str.length < shortestString.length) {
-            shortestString = str;
-        }
+  let shortestString = stringArr[0];
+  for (const str of stringArr) {
+    if (str.length < shortestString.length) {
+      shortestString = str;
     }
-    return shortestString;
+  }
+  return shortestString;
 }
 exports.default = findShortestString;
