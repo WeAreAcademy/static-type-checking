@@ -1,5 +1,4 @@
-
-/ import function from local file
+// import function from local file
 import findShortestString from "./find-shortest-string";
 
 test("findShortestString finds the shortest string in an array", () => {
